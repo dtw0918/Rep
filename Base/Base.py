@@ -33,7 +33,7 @@ class Base:
             return False
 
     def click_element(self, loc):
-        # 点击函数
+        # 点击函
         self.find_element_o(loc).click()
 
     def input_text(self, loc, text):
